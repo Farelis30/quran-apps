@@ -16,7 +16,7 @@ const DaftarSurat = () => {
   const quranData = data;
   return (
     <div className="p-0 md:p-10 bg-white">
-      <Navbar judul={"Daftar Surat"} />
+      <Navbar judul={"Daftar Surat"} back={"/"} />
       <div className="w-11/12 md:w-full mx-auto flex items-center border my-4 px-5 py-4">
         <input
           type="text"
@@ -41,7 +41,7 @@ const DaftarSurat = () => {
                   className="p-4 flex items-center w-full justify-between border bg-blue-50/50 hover:bg-blue-100/40 shadow md:rounded"
                 >
                   <div className="flex gap-2">
-                    <div className="w-10 h-10 bg-cyan-500 rounded-full flex justify-center items-center text-white">
+                    <div className="w-10 h-10 bg-cyan-700 rounded-full flex justify-center items-center text-white">
                       <p>{surah.nomor}</p>
                     </div>
                     <div>
